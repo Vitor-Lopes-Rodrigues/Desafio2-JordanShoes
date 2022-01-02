@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+.App-header {
+  background-color: #ffffff;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.Desconto{
+  background-color: #181818;
+  color: whitesmoke;
+  font-size: 16px;
+  padding: 15px 0;
+  
+}
+
+.Subtitulo{
+  font-size: 24px;
+  padding: 10px 0;
+}
+
+.Banner{
+  background-image: url("../assets/img/banner.png");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+}
+
+.Banner-Back{
+  background-color: rgba(24, 24, 24, .6);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Text{
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+}
+
+.Text span{
+  display: block;
+}
+
+.Text-Box{
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+
+.Text-Box h2{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.Text-Box p{
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.Box-Shoes{
+  background-color: #EBE9EA;
+  width: calc(100%/4 -20px);
+  margin: 10px;
+  padding: 30px 15px;
+}
+
+.Container-Shoes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.Right{
+  background-color: #181818;
+  text-align: center;
+  color: #F9F9F9;
+  padding: 15px 0;
+}
+
+@media screen and (max-width:768px) {
+  .Banner{
+    background-image: url("../assets/img/Air-Jordan-1-Retro-High-OG-Wmns-TWIST-Feminino\ 1.png");
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
